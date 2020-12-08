@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    height: 625px;
+    background-color: #aaaaaa;
+}
+  
+.card__item {
+    flex: 1 0;
+    width: 340px;
+    margin: 30px;
+}
+
+#card-1,
+#card-3 {
+    height: 225px;
+    background-color: #5641D2;
+}
+
+#card-2 {
+    height: 550px;
+    background-color: aqua;
+}
+
+.card__item-img {
+    width: 115px;
+    height: 115px;
+}
+
+.card__item-text {
+    background-color: yellow;
+}
